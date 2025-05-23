@@ -1,9 +1,3 @@
-<nav>
-  <a href="index.html">Home</a> |
-  <a href="products.html">Products</a> |
-  <a href="https://m.me/662346480293915" target="_blank">Order via Messenger</a>
-</nav>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,54 +17,94 @@
       color: #222;
     }
 
-    header {
-      text-align: center;
-      margin-bottom: 2rem;
-    }
-
     .logo {
       max-width: 200px;
       height: auto;
       display: block;
-      margin: 0 auto;
+      margin: 0 auto 1rem auto;
     }
 
-    .social {
-      margin-top: 1rem;
+    nav {
+      text-align: left;
+      margin-bottom: 2rem;
     }
 
-    .social a {
+    nav a {
+      margin-right: 1rem;
       text-decoration: none;
-      color: #1877f2;
+      color: teal;
       font-weight: bold;
     }
 
-    .product {
+    .product,
+    .about-box,
+    .social-box {
       background-color: rgba(255, 255, 255, 0.85);
-      margin: 1rem auto;
-      padding: 1rem;
-      max-width: 600px;
+      margin: 1.5rem auto;
+      padding: 1.5rem;
+      max-width: 700px;
       border-radius: 8px;
+    }
+
+    .about-box {
+      text-align: center;
+      line-height: 1.6;
+    }
+
+    .social-box {
+      text-align: center;
+      font-size: 1.1rem;
+      font-weight: bold;
+      background-color: rgba(255, 255, 255, 0.95);
+      border: 2px solid teal;
+    }
+
+    .social-box a {
+      color: #1877f2;
+      text-decoration: none;
+    }
+
+    .social-box a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
-  <div class="overlay">
-    <header>
-      <img src="logo.jpg" alt="Zensory Solutions Logo" class="logo" />
-      <h1>Zensory Solutions</h1>
-      <p>
-        A little bit about us: <br>
-        My name is Justin and I am married to a therapist. I got into 3D printing about a year ago. After printing several Star Wars ships and synth parts,<br>
-        I started test making small toys and props for our kids and friends. Our youngest daughter has ADHD and had some issues picking at her nails<br>
-        so my wife suggested I print her a fidget ring. She loved it and has since stopped picking. I started printing other types of sensory<br>
-        toys not just for her, but for my wife's practice to give out at conventions. It was at those conventions that I realized how much help<br>
-        these items could be to therapists, their clients, and other parents. These fidgets help those with anxiety, ADHD, autism, and so much more.<br>
-        So check us out and see what we can do for you. We have multiple standard products and the ability to make specific custom items if needed.<br>
-        Shopping Cart and order options coming soon. For now, please use the Facebook link.<br>
-      </p>
-      <div class="social">
-        <a href="https://www.facebook.com/profile.php?id=61575860921470" target="_blank">🧩 Check us out on Facebook to place an order. Don't forget to follow us and give us a like!</a>
-      </div>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="products.html">Products</a> |
+    <a href="https://m.me/662346480293915" target="_blank">Order via Messenger</a>
+  </nav>
+
+  <!-- Logo -->
+  <img src="logo.jpg" alt="Zensory Solutions Logo" class="logo" />
+
+  <!-- About Section -->
+  <div class="about-box">
+    <h2>About Zensory Solutions</h2>
+    <p>
+      My name is Justin and I am married to a therapist. I got into 3D printing about a year ago. After printing several Star Wars ships and synth parts,<br>
+      I started test making small toys and props for our kids and friends. Our youngest daughter has ADHD and had some issues picking at her nails,<br>
+      so my wife suggested I print her a fidget ring. She loved it and has since stopped picking.<br><br>
+
+      I started printing other types of sensory toys not just for her, but for my wife's practice to give out at conventions. It was at those conventions that I realized how much help<br>
+      these items could be to therapists, their clients, and other parents. These fidgets help those with anxiety, ADHD, autism, and more.<br><br>
+
+      So check us out and see what we can do for you. We have multiple standard products and the ability to make specific custom items if needed.<br><br>
+      🛒 Shopping cart and ordering options coming soon. For now, please use the Facebook link below to order!
+    </p>
   </div>
+
+  <!-- Facebook Section -->
+  <<div class="social-box">
+    <p>
+      🧩 <a href="https://www.facebook.com/profile.php?id=61575860921470" target="_blank">
+        Check us out on Facebook to place an order. Don’t forget to follow us and give us a like!
+      </a>
+    </p>
+  </div>
+
 </body>
+</html>

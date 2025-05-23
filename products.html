@@ -17,13 +17,27 @@
       color: #222;
     }
 
-    nav {
-      text-align: center;
+    .logo {
+      max-width: 150px;
+      height: auto;
+      display: block;
+      margin-bottom: 1rem;
+    }
+
+    .top-bar {
+      display: flex;
+      align-items: center;
+      gap: 1.5rem;
       margin-bottom: 2rem;
     }
 
+    nav {
+      text-align: left;
+    }
+
     nav a {
-      margin: 0 1rem;
+      display: inline-block;
+      margin-right: 1rem;
       text-decoration: none;
       color: teal;
       font-weight: bold;
@@ -31,7 +45,7 @@
 
     .product {
       background-color: rgba(255, 255, 255, 0.85);
-      margin: 1rem auto;
+      margin: 2rem auto;
       padding: 1rem;
       max-width: 600px;
       border-radius: 8px;
@@ -46,11 +60,15 @@
 </head>
 <body>
 
-  <nav>
-    <a href="index.html">Home</a> |
-    <a href="products.html">Products</a> |
-    <a href="https://m.me/662346480293915" target="_blank">Order via Messenger</a>
-  </nav>
+  <!-- Logo and Nav Section -->
+  <div class="top-bar">
+    <img src="logo.jpg" alt="Zensory Solutions Logo" class="logo">
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="https://m.me/662346480293915" target="_blank">Order via Messenger</a>
+    </nav>
+  </div>
 
   <div class="product">
     <h2>Sensory Sand Play Boxes</h2>
@@ -68,9 +86,9 @@
     <h2>Fidget Toys</h2>
     <strong>Handheld tools to support focus and relieve stress.</strong><br><br>
     <p>
-      Keychain Spinners - $2 or 3 for $5<br>
-      Keychain Clickers - $2 or 3 for $5<br>
-      Infinity Cubes - $2 or 3 for $5
+      Keychain Spinners - <strong></strong>$2 or 3 for $5</strong><br>
+      Keychain Clickers - <strong></strong>$2 or 3 for $5</strong><br>
+      Infinity Cubes - <strong></strong>$2 or 3 for $5</strong><br>
     </p>
   </div>
 

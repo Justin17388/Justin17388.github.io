@@ -43,8 +43,11 @@
     <div class="project">
     <h3>AWS Infrastructure with Terraform</h3>
     <p>
-      Designed and deployed a scalable AWS environment including VPC, public/private subnets,
-      Application Load Balancer, and RDS database using Terraform with remote state management.
+        Built a production-style AWS environment using Terraform, provisioning a custom VPC with segmented
+        public and private subnets, an Application Load Balancer for traffic distribution, and an RDS database
+        for persistent storage. Leveraged remote state management and modular configurations to enable repeatable,
+        version-controlled infrastructure deployments while following best practices for network isolation
+        and scalability.
     </p>
 
     <a class="btn" href="https://github.com/Justin17388/devops-portfolio-justin/tree/main/projects/02-terraform-s3-static-site" target="_blank">
@@ -55,15 +58,15 @@
     <div class="project">
       <h3>Self-Hosted AI DevOps Assistant Homelab</h3>
       <p>
-        This project began as an effort to revive a 13-year-old laptop and evolved into a fully functional 
-        self-hosted AI homelab server. By installing Linux Mint and leveraging Docker, Ollama, and Open WebUI, 
-        the system was transformed into a private AI assistant capable of coding support and log analysis.
-        Despite limited hardware resources, the system was optimized using swap and zRAM, and configured to run
-        reliably as a headless server. Secure remote access was implemented using Tailscale, enabling full
-        control and AI interaction from any device.
+          This project began as an effort to revive a 13-year-old laptop and evolved into a fully functional 
+          self-hosted AI homelab server. By installing Linux Mint and leveraging Docker, Ollama, and Open WebUI, 
+          the system was transformed into a private AI assistant capable of coding support and log analysis.
+          Despite limited hardware resources, the system was optimized using swap and zRAM, and configured to run
+          reliably as a headless server. Secure remote access was implemented using Tailscale, enabling full
+          control and AI interaction from any device.
 
-        This project highlights practical problem-solving across Linux, networking, containerization, and AI 
-        integration while building a real-world, usable system.
+          This project highlights practical problem-solving across Linux, networking, containerization, and AI 
+          integration while building a real-world, usable system.
       </p>
       
       <a class="btn" href="https://github.com/Justin17388/devops-portfolio-justin/tree/main/projects/ai-homelab-devops-assistant" target="_blank">
@@ -74,8 +77,11 @@
     <div class="project">
       <h3>K3s Cluster Automation</h3>
       <p>
-        Built an automated Kubernetes cluster using Terraform and EC2 user data scripts.
-        Integrated GitLab Agent for cluster visibility and management.
+          Designed and automated the deployment of a lightweight Kubernetes (K3s) cluster on AWS using Terraform 
+          and EC2 user data scripts, enabling zero-touch cluster provisioning. Implemented dynamic bootstrapping of 
+          server and agent nodes, eliminating the need for manual configuration. Integrated GitLab Agent for real-time
+          cluster visibility and GitOps-based management, reinforcing infrastructure-as-code and continuous deployment
+          practices.
       </p>
       
       <a class="btn" href="https://github.com/Justin17388/devops-portfolio-justin/tree/main/projects/04-kubernetes-kind" target="_blank">
@@ -86,8 +92,10 @@
     <div class="project">
       <h3>CI/CD Pipeline with GitLab</h3>
       <p>
-        Created a CI/CD pipeline to provision and destroy AWS infrastructure using Terraform.
-        Implemented manual approval stages and improved pipeline reliability.
+          Built a GitLab CI/CD pipeline to automate the provisioning and teardown of AWS infrastructure using Terraform,
+          enabling consistent and repeatable deployments. Implemented staged workflows with manual approval gates to 
+          enforce change control and minimize deployment risk. Designed the pipeline to separate planning and execution 
+          phases, improving reliability, visibility, and alignment with infrastructure-as-code and DevOps best practices.
       </p>
       
       <a class="btn" href="https://gitlab.nioyatech.com/Justin_S_int19-us/smoke-test-api" target="_blank">
@@ -98,7 +106,10 @@
     <div class="project">
       <h3>Sample Crawler</h3>
       <p>
-        Sample Crawler is an ethical, topic-focused web spider with a local web UI.
+          Built an ethical, topic-focused web crawler capable of collecting structured data based on predefined keywords and
+          domains. Developed a local web interface to manage crawl scope, monitor activity, and review collected results. 
+          Incorporated responsible crawling practices such as rate limiting and scope restriction, and designed the system to
+          support downstream data analysis and automation workflows.
       </p>
       <a class="btn" href="https://github.com/Justin17388/devops-portfolio-justin/tree/main/projects/05-insights-crawler" target="_blank">
       View Details
